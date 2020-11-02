@@ -26,7 +26,7 @@ from helper import evaluate_kmeans, run_kmeans, elbow_function, run_EM, evaluate
     kmeans_silhoutte_analysis, plot_EM, run_PCA, run_ICA, run_RCA
 from my_encoder import my_encoder
 
-credit_data = pd.read_csv('/Users/marshongreen/Documents/GATech ML(7641)/Datasets/dataset_31_credit-g.csv')
+credit_data = pd.read_csv('Path to credit risk dataset')
 
 
 def credit_risk_data():
